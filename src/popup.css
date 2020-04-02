@@ -1,0 +1,73 @@
+@import "../node_modules/@syncfusion/ej2-base/styles/material.css";
+
+@import "../node_modules/@syncfusion/ej2-popups/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-lists/styles/material.css";
+@import "../node_modules/@syncfusion/ej2-react-calendars/styles/material.css";
+
+
+.popup {  
+    position: fixed;  
+    width: 100%;  
+    height: 100%;  
+    top: 0;  
+    left: 0;  
+    right: 0;  
+    bottom: 0;
+      
+    border-color: black;
+    margin: auto;  
+    background-color: rgba(0, 0,0,0.5);  
+  }  
+  .popup\_inner { 
+      margin-top: 700px; 
+    position: absolute;  
+    left: 25%;  
+    right: 25%;  
+    top: 25%;  
+    bottom: 25%;  
+    margin: 0 auto;  
+    border-radius: 20px;  
+    
+    background: white;  
+    background-color: white;
+  }
+
+  .centre{
+    size:auto;
+    align-self: auto;
+    text-align: center;
+    align-items: center;
+    
+   
+  }
+  .cdtask { 
+    margin:0 auto;
+    width: 30%;
+    height: 50%;
+    
+    padding: 10px;
+  }
+  .cdtasks { 
+    margin:0 auto;
+    width: 60%;
+    height: 5%;
+    
+   
+  }
+  .hide{
+    text-decoration: none;
+  }
+ 
+  .cd { 
+    align-items: center;
+    align-self: auto;
+    margin: auto;
+    width: 70%;
+    height: 50%;
+    border: 3px solid black;
+    padding: 10px;
+  }
+
+  .hide{
+    display: none;
+  }
